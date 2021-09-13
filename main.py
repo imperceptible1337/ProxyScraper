@@ -7,6 +7,8 @@ type = input(f"{Fore.LIGHTBLUE_EX}[-] What type would you like? (http, https, so
 
 timeout = input(f"{Fore.LIGHTBLUE_EX}[-] Proxy timeout {Fore.YELLOW}> {Fore.RED}")
 
+print(f"{Fore.GREEN}")
+
 url = requests.post(f"https://api.proxyscrape.com/v2/?request=getproxies&protocol={type}&timeout={timeout}&country=all")
 try:
     print(url.text)
