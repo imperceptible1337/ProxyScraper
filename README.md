@@ -1,9 +1,5 @@
 # Requirments
 
-pip install colorama (colorama)
+pip install colorama
 
-pip install requests (requests)
-
-# Usage
-
-Just run it and follow the steps
+pip install requests
